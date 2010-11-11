@@ -1,6 +1,6 @@
 package info.sudr.sandbox.forfeit
 
-scenario "ignores numbers divisible by 7", {
+scenario "playing the game of Forfeit", {
 	given "a forfeit game", {
 		game = new Game()
 	}

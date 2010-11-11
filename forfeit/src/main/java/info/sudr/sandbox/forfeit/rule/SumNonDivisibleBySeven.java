@@ -11,12 +11,7 @@ public class SumNonDivisibleBySeven extends RuleDecorator {
 	@Override
 	public boolean execute(int n) {
 		NonDivisibleBySeven nonDivisibleBySeven = new NonDivisibleBySeven(new EmptyRule());
-		char[] charArray = String.valueOf(n).toCharArray();
-		int sumOfDigits = 0;
-		for (int i = 0; i < charArray.length; i++) {
-			int val = Integer.valueOf(String.valueOf(charArray[i]));
-			sumOfDigits += val;
-		}
+		int sumOfDigits = Util.sumOfDigits(n);
 		return nonDivisibleBySeven.execute(sumOfDigits) ? rule.execute(n) : false;
 	}
 
