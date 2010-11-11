@@ -26,10 +26,20 @@ scenario "ignores numbers divisible by 7", {
 	then 'numbers whose sum of their digits is divisible by 7 are not present', {
 		result.each { n ->
 			sum = 0
-			(n as String[]).each {
+			(String.valueOf(n) as String[]).each { s ->
+				sum += Integer.valueOf(s)
+			} 
+ 			sum.mod(7).shouldNotEqual 0
+		}
+	}
+	and
+	then 'numbers whose sum of their digits contains 7 are not present', {
+		result.each { n ->
+			sum = 0
+			(String.valueOf(n)  as String[]).each {
 				sum += Integer.valueOf(it)
 			}
-			sum.mod(7).shouldNotEqual 0
+			Integer.toString(sum).contains('7').shouldNotEqual true
 		}
 	}
 }
