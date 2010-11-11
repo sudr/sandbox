@@ -15,4 +15,12 @@ scenario "ignores numbers divisible by 7", {
 			n.mod(7).shouldNotEqual 0
 		}
 	}
+	
+	and
+	
+	then 'numbers containing 7 are not present', {
+		result.each { n ->
+			Integer.toString(n).contains('7').shouldNotEqual true
+		}
+	}
 }

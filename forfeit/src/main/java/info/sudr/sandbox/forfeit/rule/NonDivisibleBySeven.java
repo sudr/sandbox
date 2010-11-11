@@ -1,4 +1,6 @@
-package info.sudr.sandbox.forfeit;
+package info.sudr.sandbox.forfeit.rule;
+
+import info.sudr.sandbox.forfeit.Rule;
 
 public class NonDivisibleBySeven extends RuleDecorator {
 
@@ -8,10 +10,7 @@ public class NonDivisibleBySeven extends RuleDecorator {
 
 	@Override
 	public boolean execute(int n) {
-		if (n % 7 == 0) {
-			return false;
-		}
-		return rule.execute(n);
+		return n % 7 == 0 ? false : rule.execute(n);
 	}
 
 }
