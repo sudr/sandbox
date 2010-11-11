@@ -17,7 +17,8 @@ public class Game {
 	public Set<Integer> play() {
 		Set<Integer> list = new HashSet<Integer>();
 		for (int i = 1; i <= limit; i++) {
-			if (i % 7 != 0) {
+			Rule rule = new Rule(i);
+			if (rule.execute()) {
 				list.add(i);
 			}
 		}
