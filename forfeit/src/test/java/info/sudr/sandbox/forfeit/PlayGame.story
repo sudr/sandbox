@@ -7,6 +7,7 @@ scenario "ignores numbers divisible by 7", {
 	
 	when 'we play', {
 		result = game.play()
+		println result
 	}
 	
 	then 'numbers divisible by 7 are not present', {

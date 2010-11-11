@@ -17,7 +17,7 @@ public class Game {
 	public Set<Integer> play() {
 		Set<Integer> list = new HashSet<Integer>();
 		for (int i = 1; i <= limit; i++) {
-			Rule rule = new Rule(i);
+			Rule rule = new NonDivisibleBySeven(new EmptyRule(i));
 			if (rule.execute()) {
 				list.add(i);
 			}

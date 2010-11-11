@@ -1,15 +1,9 @@
 package info.sudr.sandbox.forfeit;
 
-public class Rule {
+public interface Rule {
 
-	private final int n;
+	boolean execute();
 
-	public Rule(int n) {
-		this.n = n;
-	}
-
-	public boolean execute() {
-		return n % 7 != 0 ;
-	}
+	int getN();
 
 }
