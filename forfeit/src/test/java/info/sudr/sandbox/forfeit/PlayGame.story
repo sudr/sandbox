@@ -1,12 +1,12 @@
 package info.sudr.sandbox.forfeit
 
 scenario "ignores numbers divisible by 7", {
-	given "a forfeit game for 100", {
-		game = new Game(100)
+	given "a forfeit game", {
+		game = new Game()
 	}
 	
-	when 'we play', {
-		result = game.play()
+	when 'we play for 100', {
+		result = game.play(100)
 		println result
 	}
 	

@@ -8,8 +8,4 @@ public abstract class RuleDecorator implements Rule {
 		this.rule = rule;
 	}
 	
-	public int getN() {
-		return rule.getN();
-	}
-
 }

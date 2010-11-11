@@ -7,11 +7,11 @@ public class NonDivisibleBySeven extends RuleDecorator {
 	}
 
 	@Override
-	public boolean execute() {
-		if (rule.getN() % 7 == 0) {
+	public boolean execute(int n) {
+		if (n % 7 == 0) {
 			return false;
 		}
-		return rule.execute();
+		return rule.execute(n);
 	}
 
 }
