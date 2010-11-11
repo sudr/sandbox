@@ -3,6 +3,7 @@ package info.sudr.sandbox.forfeit;
 import info.sudr.sandbox.forfeit.rule.EmptyRule;
 import info.sudr.sandbox.forfeit.rule.NonDivisibleBySeven;
 import info.sudr.sandbox.forfeit.rule.NotContainSeven;
+import info.sudr.sandbox.forfeit.rule.SumNonDivisibleBySeven;
 
 import java.util.SortedSet;
 
@@ -15,6 +16,7 @@ public class Game {
 
 		Rule rule = new NonDivisibleBySeven(new EmptyRule());
 		rule = new NotContainSeven(rule);
+		rule = new SumNonDivisibleBySeven(rule);
 		GameInvoker invoker = new GameInvoker(limit, rule);
 		return invoker.play();
 	}
