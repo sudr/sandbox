@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="info.sudr.sandbox.predicates.PurchaseOrdersTest" failures="0" tests="5" time="0.086" errors="0">
+  <properties/>
+  <testcase name="test_Predicates" time="0.019" classname="info.sudr.sandbox.predicates.PurchaseOrdersTest"/>
+  <testcase name="test_filterOrders_ByCustomer" time="0.012" classname="info.sudr.sandbox.predicates.PurchaseOrdersTest"/>
+  <testcase name="test_listOrder_ByCustomer" time="0.002" classname="info.sudr.sandbox.predicates.PurchaseOrdersTest"/>
+  <testcase name="test_listOrdersByCustomer" time="0.001" classname="info.sudr.sandbox.predicates.PurchaseOrdersTest"/>
+  <testcase name="test_selectOrders_ByCustomer" time="0.016" classname="info.sudr.sandbox.predicates.PurchaseOrdersTest"/>
+</testsuite>

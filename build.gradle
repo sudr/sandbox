@@ -11,6 +11,7 @@ subprojects {
         }
         dependencies {
 		compile     'commons-lang:commons-lang:2.3'
+		compile	    'com.google.guava:guava:r07'
 		compile	    'org.slf4j:slf4j-log4j12:1.6.1'
 		runtime     'org.slf4j:jcl-over-slf4j:1.5.6'
                 testCompile 'org.testng:testng:5.12.1'

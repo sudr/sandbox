@@ -1,0 +1,24 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="predicates" duration-ms="86" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+    <groups>
+    </groups>
+    <test name="info.sudr.sandbox.predicates.PurchaseOrdersTest" duration-ms="86" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+      <class name="info.sudr.sandbox.predicates.PurchaseOrdersTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="6" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+        </test-method>
+        <test-method status="PASS" signature="test_Predicates()" name="test_Predicates" duration-ms="19" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+        </test-method>
+        <test-method status="PASS" signature="test_filterOrders_ByCustomer()" name="test_filterOrders_ByCustomer" duration-ms="12" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+        </test-method>
+        <test-method status="PASS" signature="test_listOrder_ByCustomer()" name="test_listOrder_ByCustomer" duration-ms="2" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+        </test-method>
+        <test-method status="PASS" signature="test_listOrdersByCustomer()" name="test_listOrdersByCustomer" duration-ms="1" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+        </test-method>
+        <test-method status="PASS" signature="test_selectOrders_ByCustomer()" name="test_selectOrders_ByCustomer" duration-ms="16" started-at="2010-11-11T07:54:07Z" finished-at="2010-11-11T07:54:07Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

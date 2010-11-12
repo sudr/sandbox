@@ -1,1 +1,1 @@
-include 'forfeit'
+include 'forfeit', 'predicates'

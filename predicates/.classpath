@@ -1,0 +1,30 @@
+<classpath>
+  <classpathentry kind="output" path="bin"/>
+  <classpathentry output="build/classes/main" kind="src" path="src/main/resources"/>
+  <classpathentry output="build/classes/main" kind="src" path="src/main/java"/>
+  <classpathentry output="build/classes/test" kind="src" path="src/test/resources"/>
+  <classpathentry output="build/classes/test" kind="src" path="src/test/java"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/org.slf4j/slf4j-api/sources/slf4j-api-1.6.1-sources.jar" kind="var" path="GRADLE_CACHE/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/asm/asm-analysis/jars/asm-analysis-3.2.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/oro/oro/sources/oro-2.0.8-sources.jar" kind="var" path="GRADLE_CACHE/oro/oro/jars/oro-2.0.8.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/com.google.guava/guava/sources/guava-r07-sources.jar" kind="var" path="GRADLE_CACHE/com.google.guava/guava/jars/guava-r07.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/org.easyb/easyb/sources/easyb-0.9.8-sources.jar" kind="var" path="GRADLE_CACHE/org.easyb/easyb/jars/easyb-0.9.8.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/junit/junit/sources/junit-3.8.1-sources.jar" kind="var" path="GRADLE_CACHE/junit/junit/jars/junit-3.8.1.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/asm/asm-tree/jars/asm-tree-3.2.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/commons-lang/commons-lang/sources/commons-lang-2.3-sources.jar" kind="var" path="GRADLE_CACHE/commons-lang/commons-lang/jars/commons-lang-2.3.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/org.testng/testng/sources/testng-5.12.1-sources.jar" kind="var" path="GRADLE_CACHE/org.testng/testng/jars/testng-5.12.1.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/org.slf4j/slf4j-log4j12/sources/slf4j-log4j12-1.6.1-sources.jar" kind="var" path="GRADLE_CACHE/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/net.sourceforge.cobertura/cobertura/sources/cobertura-1.9.3-sources.jar" kind="var" path="GRADLE_CACHE/net.sourceforge.cobertura/cobertura/jars/cobertura-1.9.3.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/org.codehaus.groovy/groovy-all/sources/groovy-all-1.7.5-sources.jar" kind="var" path="GRADLE_CACHE/org.codehaus.groovy/groovy-all/jars/groovy-all-1.7.5.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/org.apache.ant/ant-launcher/jars/ant-launcher-1.7.0.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/org.apache.ant/ant/jars/ant-1.7.0.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/antlr/antlr/jars/antlr-2.7.7.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/asm/asm/jars/asm-3.2.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/commons-cli/commons-cli/sources/commons-cli-1.1-sources.jar" kind="var" path="GRADLE_CACHE/commons-cli/commons-cli/jars/commons-cli-1.1.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/asm/asm-util/jars/asm-util-3.2.jar" exported="true"/>
+  <classpathentry kind="var" path="GRADLE_CACHE/asm/asm-commons/jars/asm-commons-3.2.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/org.slf4j/jcl-over-slf4j/sources/jcl-over-slf4j-1.5.6-sources.jar" kind="var" path="GRADLE_CACHE/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.5.6.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/org.codehaus.groovy/groovy/sources/groovy-1.7.5-sources.jar" kind="var" path="GRADLE_CACHE/org.codehaus.groovy/groovy/jars/groovy-1.7.5.jar" exported="true"/>
+  <classpathentry sourcepath="GRADLE_CACHE/log4j/log4j/sources/log4j-1.2.16-sources.jar" kind="var" path="GRADLE_CACHE/log4j/log4j/bundles/log4j-1.2.16.jar" exported="true"/>
+</classpath>
